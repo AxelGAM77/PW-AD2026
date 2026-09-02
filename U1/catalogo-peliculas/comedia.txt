@@ -1,0 +1,4 @@
+PELÍCULA		FECHA DE ESTRENO
+Superbad		17 de agosto de 2007
+The hangover		5 de junio de 2009
+Mean girls		30 de abril de 2004
