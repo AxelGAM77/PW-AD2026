@@ -1,68 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Estructura base</title>
-    </head>
-    <body>
-        <!-- Encabezados -->
-        <h1 id = "encabezados"> Encabezados </h1>
-        <h1>Encabezado H1</h1>
-        <h2>Encabezado H2</h2>
-        <h3>Encabezado H3</h3>
-        <h4>Encabezado H4</h4>
-        <h5>Encabezado H5</h5>
-        <h6>Encabezado H6</h6>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura base</title>
+</head>
+
+<body>
+    <!-- Encabezados -->
+    <h1 id="encabezados"> Encabezados </h1>
+    <h1>Encabezado H1</h1>
+    <h2>Encabezado H2</h2>
+    <h3>Encabezado H3</h3>
+    <h4>Encabezado H4</h4>
+    <h5>Encabezado H5</h5>
+    <h6>Encabezado H6</h6>
+    <hr>
+    <!-- Texto -->
+    <h1>Texto</h1>
+    <p>
+        <strong>Lorem ipsum</strong><br>
+        <em>sit amet consectetur</em>
+        adipisicing elit. Corporis illo, odit magni
+        natus accusantium aliquid consectetur
+        praesentium, nihil consequatur iste
+        asperiores! Consectetur nam repellat
+        laudantium hic corrupti quo, nihil facere!
+    </p>
+    <hr>
+    <!-- Imagenes -->
+    <h1 id="imagenes"> Imagenes </h1>
+    <img width="100px"
+        src="https://imgs.search.brave.com/xg4Gd6oLD2O4Cf9WRWhReUiNO6RlWevsoI1WblvbUdc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2U1LzM3/L2E0L2U1MzdhNGE1/ZmNjOTc1YzcxYzVh/Y2Y2NzczZmIxNzNh/LmpwZw">
+    <hr>
+    <!-- Listas-->
+    <h1> Listas</h1>
+    <ol>
+        <li> Ordenado 1</li>
+        <li> Ordenado 2</li>
+        <li> Ordenado 3</li>
+    </ol>
+    <ul>
+        <li> Desordenado 1</li>
+        <li> Desordenado 2</li>
+        <li> Desordenado 3</li>
+    </ul>
+    <!-- Tablas -->
+    <h1> Tabla </h1>
+    <table border="1">
+        <tr>
+            <th colspan="3"> Estudiantes </th>
+            <th> Nombre</th>
+            <th> Escuela</th>
+            <th> Ciudad </th>
+        </tr>
+        <tr>
+            <td> Axel</td>
+            <td> ITTepic</td>
+            <td> ISC </td>
+        </tr>
         <hr>
-        <!-- Texto -->
-        <h1>Texto</h1>
-        <p>
-            <strong>Lorem ipsum</strong><br> 
-            <em>sit amet consectetur</em> 
-            adipisicing elit. Corporis illo, odit magni 
-            natus accusantium aliquid consectetur 
-            praesentium, nihil consequatur iste 
-            asperiores! Consectetur nam repellat 
-            laudantium hic corrupti quo, nihil facere!
-        </p>
-        <hr>
-        <!-- Imagenes -->
-         <h1 id = "imagenes"> Imagenes </h1>
-         <img width="100px" src="https://imgs.search.brave.com/xg4Gd6oLD2O4Cf9WRWhReUiNO6RlWevsoI1WblvbUdc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2U1LzM3/L2E0L2U1MzdhNGE1/ZmNjOTc1YzcxYzVh/Y2Y2NzczZmIxNzNh/LmpwZw">
-         <hr>
-         <!-- Listas-->
-         <h1> Listas</h1>
-         <ol>
-            <li> Ordenado 1</li>
-            <li> Ordenado 2</li>
-            <li> Ordenado 3</li>
-         </ol>
-         <ul>
-            <li> Desordenado 1</li>
-            <li> Desordenado 2</li>
-            <li> Desordenado 3</li>
-         </ul>
-         <!-- Tablas -->
-         <h1> Tabla </h1>
-         <table border = "1">
-            <tr>
-                <th colspan="3"> Estudiantes </th>
-                <th> Nombre</th>
-                <th> Escuela</th>
-                <th> Ciudad </th>
-            </tr>
-            <tr>
-                <td> Axel</td>
-                <td> ITTepic</td>
-                <td> ISC </td>
-            </tr>
-            <hr>
-         </table>
-         <!-- Enlaces -->
-         <h1> Enlaces</h1>
-         <a href="https://www.google.com" target="_blank" title="Ir a google">Google</a>
-         <br><a href="#encabezados"> Ir a encabezado</a>
-         <br><a href="#imagenes"> Ir a imagen</a>
-        </body>
+    </table>
+    <!-- Enlaces -->
+    <h1> Enlaces</h1>
+    <a href="https://www.google.com" target="_blank" title="Ir a google">Google</a>
+    <br><a href="#encabezados"> Ir a encabezado</a>
+    <br><a href="#imagenes"> Ir a imagen</a>
+    <!-- Formularios -->
+    <h1> Formularios</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <!-- Texto -->
+            <label> Texto </label>
+            <input type="text"><br><br>
+            <!-- Email -->
+            <label> Email </label>
+            <input type="email"><br><br>
+            <!-- Password -->
+            <label> Password </label>
+            <input type="password"><br><br>
+            <!-- Numero -->
+            <label> Numero </label>
+            <input type="number"><br><br>
+            <!-- Rango -->
+            <label> Rango </label>
+            <input type="range"><br><br>
+            <!-- Fecha -->
+            <label> Fecha </label>
+            <input type=" date"><br><br>
+            <!-- Hora -->
+            <label> Hora </label>
+            <input type="time"><br><br>
+            <!-- Color -->
+            <label> Color </label>
+            <input type="color"><br><br>
+            <!-- Checkbox -->
+            <label> Checkbox </label>
+            <input type="checkbox"><br><br>
+            <!-- Radio -->
+            <label> Radio </label><br>
+            <label> Opcion 1</label>
+            <input type="radio" value="opcion1" name="radio">
+            <label> Opcion 2</label>
+            <input type="radio" value="opcion2" name="radio">
+            <label> Opcion 3</label>
+            <input type="radio" value="opcion3" name="radio"><br><br>
+            <!-- Select -->
+            <label> Select </label>
+            <select>
+                <option> Opción 1</option>
+                <option> Opción 2</option>
+                <option> Opción 3</option>
+            </select><br><br>
+            <!--Textarea-->
+            <label> Textarea</label><br>
+            <textarea rows="5" cols="30"></textarea><br><br>
+            <!-- Archivo -->
+            <label> Archivo </label>
+            <input type = "file"><br><br>
+
+            <!-- Botones -->
+            <input type = "submit" value = "Enviar formulario"><br>
+            <input type = "reset" value="Limpiar formulario"><br>
+        </fieldset>
+
+    </form>
+</body>
 
 </html>
