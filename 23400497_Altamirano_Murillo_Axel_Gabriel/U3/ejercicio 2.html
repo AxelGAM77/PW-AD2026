@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo músical</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #506086;
+            color: #D3DDE8;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .main {
+            padding: 0.5rem 1.2rem;
+        }
+
+        .imagen {
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        img{
+            border-radius: 2rem;
+            border: 1px solid #D3DDE8;
+        }
+
+        .texto {
+            justify-content: center;
+            text-align: justify;
+            border: 5px solid #83B2C6;
+            border-radius: 10px;
+            background-color: #617EA8;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .encabezado {
+            justify-content: center;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #D3DDE8;
+        }
+
+        ul {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .volver {
+            font-size: 1.5rem;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        table{
+            border: 3px ridge #BDCDD0;
+            width: 100%;
+            text-align: center;
+            background-color: #83B2C6;
+        }
+
+        th{
+            color:#BDCDD0;
+            font-size: 20px;
+            background-color: #506086;
+        }
+        td{
+            font-size: 16px;
+        }
+        ol{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 2rem;
+        }
+        ol li{
+            border: 1px solid #83B2C6;
+            border-radius: 0.7rem;
+            background-color: #617EA8;
+            text-align: center;
+            padding: 30px 0px 30px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1 id="inicio" class="encabezado" style="text-align: center;"> Imagine dragons</h1>
+        <div class="texto">
+            <p> Imagine Dragons es un trío estadounidense de pop rock originaria de Las Vegas,
+                Nevada. Está compuesta por Dan Reynolds (vocalista, baterista), Wayne Sermon (guitarrista) y Ben McKee
+                (bajista).
+            </p>
+            <div class="imagen">
+                <img src="https://i.scdn.co/image/ab6761610000e5ebab47d8dae2b24f5afe7f9d38" width="320" height="200"
+                    alt="image">
+            </div>
+            <p> Imagine Dragons ganó dos American Music Awards por "Artista Alternativo Favorito", un premio Grammy a la
+                mejor interpretación rock, cinco premios Billboard Music Awards y un premio World Music Award. </p>
+        </div>
+        <h1 class="encabezado"> Integrantes </h1>
+        <div class="tabla">
+            <table border="1">
+                <tr>
+                    <th> Integrantes Actuales</th>
+                    <th> Ex miemmbros </th>
+                </tr>
+                <tr>
+                    <td> Dan Reynolds </td>
+                    <td> Andrew Tolman</td>
+                </tr>
+                <tr>
+                    <td> Wayne Sermon</td>
+                    <td> Britanny Tolman</td>
+                </tr>
+                <tr>
+                    <td> Ben McKee</td>
+                    <td> Theresa Flaminio </td>
+                </tr>
+            </table>
+        </div>
+        <h1 class="encabezado"> Discografía </h1>
+        <ol>
+            <li> Night Visions </li>
+            <li> Smoke + Mirrors </li>
+            <li> Evolve </li>
+            <li> Origins</li>
+            <li> Loom </li>
+            <li> Mercury – Acts 1 & 2</li>
+        </ol>
+        <h1> Enlaces </h1>
+        <ul>
+            <li> <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" style="color: rgb(201, 19, 19);">
+                    Youtube</a> </li>
+            <li> <a href="https://es.wikipedia.org/wiki/Imagine_Dragons" style="color:#83B2C6;"> Wikipedia </a></li>
+            <li> <a href="https://shop.imaginedragonsmusic.com/" style="color: #D3DDE8;"> Página oficial</a></li>
+        </ul>
+        <div class="volver">
+            <a href="#inicio"> Volver al comienzo</a>
+        </div>
+    </div>
+</body>
+
+</html>

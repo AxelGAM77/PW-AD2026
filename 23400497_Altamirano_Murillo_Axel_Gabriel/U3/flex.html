@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo flex</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: aliceblue;
+            padding: 15px 25px;
+            .menu{
+                display: flex;
+                gap: 20px;
+            }
+            .menu a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2 style=" color: red; text-decoration: none; background-color:black;">Mi Página</h2>
+        <div class="menu">
+            <a href="#inicio" style="background-color: blueviolet;">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+</body>
+</html>
