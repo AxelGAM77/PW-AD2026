@@ -1,0 +1,26 @@
+h1{
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    background:
+        linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url("../img/hero-background.jpg") center / cover;
+}
+
+.landing{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5rem ;
+    text-align: center;
+    border: 1px solid green;
+}
+
+.navbar{
+    display: flex;
+}
