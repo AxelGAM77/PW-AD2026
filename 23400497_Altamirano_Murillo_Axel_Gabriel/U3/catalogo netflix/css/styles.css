@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-left img{
+    width: 100px;
+}
+
+body{
+    background-color: rgb(12, 11, 11);
+    margin: 0 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

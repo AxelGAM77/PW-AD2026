@@ -19,7 +19,7 @@ body {
     gap: 10px;
     font-size: 12px;
     margin-top: 12px;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .btn-login{
@@ -47,6 +47,22 @@ footer{
 
 .main-content{
     justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-container{
+    width: 100%;
+    max-width: 600px;
+    max-height: 40px;
+    display: flex;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.search-input{
+    
 }
 
 .footer-links{
@@ -56,14 +72,15 @@ footer{
 .left-links{
     display: flex;
     justify-content: left;
-    gap: 12px;
     margin-right: 17%;
+    gap: 11px;
 }
 
 .right-links{
     display: flex;
     justify-content: end;
-    gap: 8px;
+    gap: 12px;
+    margin-right: 10px;
 }
 
 .footbar{
